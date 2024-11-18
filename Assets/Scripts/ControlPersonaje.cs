@@ -16,10 +16,12 @@ public class ControlPersonaje : MonoBehaviour
     private float originalXScale;
     private float xVelocity;
 
+    private Transform plataformaActual = null; // Para manejar la plataforma actual
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = this.GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         originalXScale = transform.localScale.x;
     }
 
@@ -36,26 +38,18 @@ public class ControlPersonaje : MonoBehaviour
         return hit.collider != null;
     }
 
-
     private void MovimientoPersonaje()
     {
         // Movimiento horizontal
         float movimientoHorizontal = Input.GetAxis("Horizontal");
 
-        //Calcula la velocidad deseada
+        // Calcula la velocidad deseada
         xVelocity = velocidadMovimiento * movimientoHorizontal;
 
-        //Comprueba si está moviéndose para activar la animación de correr
-        if (xVelocity != 0)
-        {
-            animator.SetBool("Run", true);
-        }
-        else
-        {
-            animator.SetBool("Run", false);
-        }
+        // Comprueba si está moviéndose para activar la animación de correr
+        animator.SetBool("Run", xVelocity != 0);
 
-        //Si la dirección y el signo de la velocidad no coinciden, gira al personaje
+        // Si la dirección y el signo de la velocidad no coinciden, gira al personaje
         if (xVelocity * direction < 0f)
         {
             direction *= -1;
@@ -65,9 +59,7 @@ public class ControlPersonaje : MonoBehaviour
         }
 
         rb.velocity = new Vector2(movimientoHorizontal * velocidadMovimiento, rb.velocity.y);
-
     }
-
 
     private void SaltoPersonaje()
     {
@@ -101,8 +93,25 @@ public class ControlPersonaje : MonoBehaviour
             animator.SetBool("Jump", false);
             botonSaltoPresionado = false;
         }
-
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Detectar si estamos sobre una plataforma móvil
+        if (collision.gameObject.CompareTag("PlataformaMovil"))
+        {
+            plataformaActual = collision.transform;
+            transform.parent = plataformaActual; // Hacemos al personaje hijo de la plataforma
+        }
+    }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        // Detectar si dejamos de estar sobre la plataforma móvil
+        if (collision.gameObject.CompareTag("PlataformaMovil"))
+        {
+            transform.parent = null; // Quitamos la relación con la plataforma
+            plataformaActual = null;
+        }
+    }
 }
