@@ -14,32 +14,32 @@ public class CamaraSeguimiento : MonoBehaviour
         camara = Camera.main;
     }
 
-
     void FixedUpdate()
     {
+        // Verificar si el personaje aún existe
+        if (personaje == null)
+        {
+            Debug.LogWarning("El personaje ha sido destruido. La cámara no puede seguirlo.");
+            return; // Detener el seguimiento si el personaje es nulo
+        }
+
         // Obtenemos la posición actual de la cámara
         Vector3 posicionDeseada = transform.position;
 
-
         Vector2 posicionCamara = CalcularLimitesX();
 
-
-        if (posicionDeseada.x >posicionCamara.x - 10) { 
-            posicionDeseada.x = Mathf.SmoothDamp(transform.position.x, personaje.position.x, ref velocidadActual.x, suavizado.x);
-        }
-        else if(posicionDeseada.x < posicionCamara.x + 10)
+        if (posicionDeseada.x > posicionCamara.x - 10)
         {
             posicionDeseada.x = Mathf.SmoothDamp(transform.position.x, personaje.position.x, ref velocidadActual.x, suavizado.x);
         }
-        // Limitar la posición de la cámara a los valores mínimos y máximos
-        //  posicionDeseada.x = Mathf.Clamp(posicionDeseada.x, minPosicion.x, maxPosicion.x);
-        //  posicionDeseada.y = Mathf.Clamp(posicionDeseada.y, minPosicion.y, maxPosicion.y);
+        else if (posicionDeseada.x < posicionCamara.x + 10)
+        {
+            posicionDeseada.x = Mathf.SmoothDamp(transform.position.x, personaje.position.x, ref velocidadActual.x, suavizado.x);
+        }
 
         // Actualizar la posición de la cámara
         transform.position = new Vector3(posicionDeseada.x, posicionDeseada.y, transform.position.z);
     }
-
-
 
     Vector2 CalcularLimitesX()
     {
@@ -51,5 +51,4 @@ public class CamaraSeguimiento : MonoBehaviour
 
         return new Vector2(xMinima, xMaxima);
     }
-
 }
