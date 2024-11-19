@@ -80,7 +80,12 @@ public class ComportamientoEnemigo : MonoBehaviour
             }
             else
             {
-                Debug.Log("Te mata");
+                if (personaje.GetComponent<ControlPersonaje>().GetVulneravility()) { 
+                    personaje.GetComponent<Animator>().SetTrigger("isDead");
+                    personaje.GetComponent<ControlPersonaje>().SubtractLives();
+                    personaje.GetComponent<ControlPersonaje>().SetVulnerability();
+                    Debug.Log("Te mata");
+                }
             }
         }
     }

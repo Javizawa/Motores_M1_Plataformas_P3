@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ControlPersonaje : MonoBehaviour
@@ -7,6 +8,7 @@ public class ControlPersonaje : MonoBehaviour
     public float tiempoMaximoSalto = 0.5f; // Duración máxima que se puede mantener el salto
     private float tiempoSaltoActual = 0f;
     public LayerMask groundLayer;
+    public TextMeshProUGUI livesNumber;
 
     private Rigidbody2D rb;
     private bool estaSaltando = false;
@@ -15,6 +17,9 @@ public class ControlPersonaje : MonoBehaviour
     private int direction = 1;
     private float originalXScale;
     private float xVelocity;
+    private int lives = 3;
+    private bool isVulnerable = true;
+    private float vulnerabilityTime = 0f;
 
     private Transform plataformaActual = null; // Para manejar la plataforma actual
 
@@ -23,12 +28,34 @@ public class ControlPersonaje : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         originalXScale = transform.localScale.x;
+        livesNumber.text = lives.ToString();
     }
 
     void Update()
     {
         MovimientoPersonaje();
         SaltoPersonaje();
+        CheckVulnerability();
+    }
+
+
+    public bool GetVulneravility()
+    {
+        return isVulnerable;
+    }
+
+    public void SetVulnerability()
+    {
+        isVulnerable = false;
+        vulnerabilityTime = Time.time;
+    }
+
+    private void CheckVulnerability()
+    {
+        if(!isVulnerable && (Time.time - vulnerabilityTime) > 3f)
+        {
+            isVulnerable = true;
+        }
     }
 
     private bool EstaEnSuelo()
@@ -113,5 +140,23 @@ public class ControlPersonaje : MonoBehaviour
             transform.parent = null; // Quitamos la relación con la plataforma
             plataformaActual = null;
         }
+    }
+
+
+    public void AddLives()
+    {
+        lives++;
+        livesNumber.text = lives.ToString();
+    }
+
+    public int GetLives()
+    {
+        return lives;
+    }
+
+    public void SubtractLives()
+    {
+        lives--;
+        livesNumber.text = lives.ToString();
     }
 }
