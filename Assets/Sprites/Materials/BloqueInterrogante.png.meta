@@ -1,0 +1,1812 @@
+fileFormatVersion: 2
+guid: b2718b08f69d54bc59c703000f8b68a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloqueInterrogante_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 676
+        width: 80
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a64041432934c419e3ca5c8faf89f8
+      internalID: -2095772483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 676
+        width: 160
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266a7cad62c148a983067d6c1a4d922
+      internalID: -1062423241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 676
+        width: 80
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61a189f3d7ea483cb89bbb0d3ca1a2e
+      internalID: 1894712013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 676
+        width: 20
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4081eeec340497fac27607957e0a2e
+      internalID: -1786865026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 771
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd864b0857064256917ee28ccc59fcc
+      internalID: -803303094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_5
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 798
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed01f6b21df743e5af7484595c6eeda
+      internalID: -2063236206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 771
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1d7f42d27d40e9895dd643607cfd2
+      internalID: -1225922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 771
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7480f369675f04085bdff4130d7ca29b
+      internalID: 1592363868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 771
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b918f12c0f4394f17b96e920070bc5fd
+      internalID: -2092621388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_9
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 627
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9223746130744b1bff19ade5328481
+      internalID: -175440709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 421
+        width: 280
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cec4e4f4fd8b424b8f6d58c0b549780
+      internalID: -607791297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_11
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 596
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a8c34fef2ae4703a7876e07bbcb5a7
+      internalID: 53126828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 612
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b781b2c04e624923812f57183ab8ff6
+      internalID: 1296392723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_13
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 596
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab7857af794e456da4022adc8a1540a
+      internalID: -1307895683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_14
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 612
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bbae9a1f8bc40548f75319d63b38e2
+      internalID: 936072236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_15
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 595
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5034426daa5b24891be5bcaf5da4eedb
+      internalID: 1459235091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_16
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 596
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d37aa8687ed4bb29381d68e0bbadcd
+      internalID: 1898807205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_17
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 589
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e545173c3ac4523895f07bfaa571e0
+      internalID: 591404152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_18
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 596
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dec7f6708224f159342bcc6b4b6c02
+      internalID: -929746068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 596
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef572fa038934a6eb6737e836cb5b33
+      internalID: -559976618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_20
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 596
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116ca5702b3484d9f9ada9f93ac6a14e
+      internalID: -1065471825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_21
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 596
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefaee64017384ad595c2122158678a2
+      internalID: -547828530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_22
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 596
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4524788c1045c5b95c6d728458818
+      internalID: 1209286497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_23
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 596
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebcca30b1d5e4cbdb5dbb7e4b4ceb41
+      internalID: -965804764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_24
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 589
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1094342ede33449d78f0f34e0df333ee
+      internalID: -2065166741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_25
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 589
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff4c4764cc024b8fac230f52d6fb9c4
+      internalID: -1595575254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_26
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 596
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1d8e6f20e1344f8ab53384b918b4f4
+      internalID: -182111910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_27
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 589
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d303b338d69c4692b7e44d6aefa5e3c
+      internalID: -971451150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_28
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 565
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb1bf77fa7ab40eba57b26d820955ca
+      internalID: -748326083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_29
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 565
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc123fb5a42c409c8a21693892e8c75
+      internalID: 133554134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_30
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 565
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004825f31a71144bead28576f519b69c
+      internalID: 1087642872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_31
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 565
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7969773765c4e95aef4af262d0a41b
+      internalID: -1647111847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_32
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 581
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5394e9a60ab4d509f1e21f12f0acbd
+      internalID: 2001005922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_33
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 565
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5e216a062944f52872bc6621b496c3
+      internalID: 1457037245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_34
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 565
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d564b9d910dd4387b20c5cc1fb4052b
+      internalID: 1390653767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_35
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 565
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98dab45941ba40acb3a8b884cbef82c
+      internalID: -575452809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_36
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 565
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff7c6dbc9f364908b7d712716488e67
+      internalID: -137452028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_37
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 565
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387650c880a8c462f9bef9c05b2040c4
+      internalID: 1820852729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_38
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 565
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b42e4fa863549f9a9aa8bcf32743eb
+      internalID: -577995258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_39
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 565
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af829c643fecc46e6bc753c2db35f29b
+      internalID: -1668624382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_40
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 565
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb0afdd01cd242249ada387755b348e
+      internalID: -474889701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_41
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 534
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714f35cf95b4747d8871d9baf6ae21d7
+      internalID: 495831733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_42
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 534
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9537f91f4b5e462386bfd5860061d7d
+      internalID: -1054767560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_43
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 534
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fde1603559542568d985233814410f
+      internalID: 1144897961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_44
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 533
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb6a414c725645e2ab376c1c7edbb63
+      internalID: -517211321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_45
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 550
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d84dcee9d2d64d698e37d7f0ae33e61
+      internalID: -89760268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_46
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 534
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ae090efbc02492d865cf69f7033014
+      internalID: -1188504959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_47
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 528
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73a56a97981440ca820b83622f7a932
+      internalID: 330728909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_48
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 534
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c7aae5e85f548a49342532a6329bb7
+      internalID: -1347581008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_49
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 534
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d962e2d72edd745b789f7f696eef46bb
+      internalID: -1342050018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_50
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 534
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945b9e577790541d5bafe308bfc2b9d3
+      internalID: -1941227176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_51
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 534
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a384e71929f34288aa097db3db54c81
+      internalID: 1692847104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_52
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 534
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8895e56670740ca9aa7907092a8d6b
+      internalID: -1966898795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_53
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 534
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5207ec16b220d46e79d04cb54996d58b
+      internalID: -333375931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_54
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 534
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7757c02c8b54af38053b25c4522d7a
+      internalID: -980863751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_55
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 534
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847a17888545a4a3eaba1ac430bb9ee8
+      internalID: -1454421755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_56
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 534
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a905596dfd14413b73f333168e4639
+      internalID: 1100243247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_57
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 501
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe7ecbee6c494d77b8547039bb26761
+      internalID: 2089922342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_58
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 501
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03566d4e4fd954f4187d7efde71802fb
+      internalID: -1812542897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_59
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 501
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b617ac2d7fcd84fd4b37efd8148956d1
+      internalID: -1926026915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_60
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 501
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5349b559aebcf499cbe97020581aca75
+      internalID: 702235074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_61
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 501
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9b9e3a5857d4404aa74a8d50029102
+      internalID: -270162767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_62
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 501
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6a80eb409e140e7ba824deb59adcfe
+      internalID: 902356567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_63
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 501
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212327806a0b04e81ba6aece3e807e45
+      internalID: 2142318058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_64
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 501
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5482ffb9a0934db4a4d1825e09ab43e
+      internalID: 396016912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_65
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 501
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971d4e00551dc41dfbafd56248616fb0
+      internalID: -642989497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_66
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 70
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083831ff670bb4245a737f396c725545
+      internalID: -632076455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_67
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 70
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9d11ff0253b482684de16e70011bec
+      internalID: 773939651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_68
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 70
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6acf2a3e26646228310c77d3225f31
+      internalID: -1704661140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_69
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 37
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c2a10c1b334547b623ae4fb36dfd1
+      internalID: 340635312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_70
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 24
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8f11bea06464da7a6485b74cbbe7f4
+      internalID: 385679484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b062a8009b22d4057a3a7edef6c80214
+      internalID: -349892310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 24
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef64bb3fec34a86a72466aa4e0e9db
+      internalID: -1354839729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_73
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 24
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ac136bd0fcb4469a023e32999fa941
+      internalID: 524893509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_74
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 24
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfbfba79c3804d8ca2535977a33d98c
+      internalID: 1080674834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloqueInterrogante_75
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 24
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b636aa1badb42454c9ff14c546107184
+      internalID: 797202221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BloqueInterrogante_0: -2095772483
+      BloqueInterrogante_1: -1062423241
+      BloqueInterrogante_10: -607791297
+      BloqueInterrogante_11: 53126828
+      BloqueInterrogante_12: 1296392723
+      BloqueInterrogante_13: -1307895683
+      BloqueInterrogante_14: 936072236
+      BloqueInterrogante_15: 1459235091
+      BloqueInterrogante_16: 1898807205
+      BloqueInterrogante_17: 591404152
+      BloqueInterrogante_18: -929746068
+      BloqueInterrogante_19: -559976618
+      BloqueInterrogante_2: 1894712013
+      BloqueInterrogante_20: -1065471825
+      BloqueInterrogante_21: -547828530
+      BloqueInterrogante_22: 1209286497
+      BloqueInterrogante_23: -965804764
+      BloqueInterrogante_24: -2065166741
+      BloqueInterrogante_25: -1595575254
+      BloqueInterrogante_26: -182111910
+      BloqueInterrogante_27: -971451150
+      BloqueInterrogante_28: -748326083
+      BloqueInterrogante_29: 133554134
+      BloqueInterrogante_3: -1786865026
+      BloqueInterrogante_30: 1087642872
+      BloqueInterrogante_31: -1647111847
+      BloqueInterrogante_32: 2001005922
+      BloqueInterrogante_33: 1457037245
+      BloqueInterrogante_34: 1390653767
+      BloqueInterrogante_35: -575452809
+      BloqueInterrogante_36: -137452028
+      BloqueInterrogante_37: 1820852729
+      BloqueInterrogante_38: -577995258
+      BloqueInterrogante_39: -1668624382
+      BloqueInterrogante_4: -803303094
+      BloqueInterrogante_40: -474889701
+      BloqueInterrogante_41: 495831733
+      BloqueInterrogante_42: -1054767560
+      BloqueInterrogante_43: 1144897961
+      BloqueInterrogante_44: -517211321
+      BloqueInterrogante_45: -89760268
+      BloqueInterrogante_46: -1188504959
+      BloqueInterrogante_47: 330728909
+      BloqueInterrogante_48: -1347581008
+      BloqueInterrogante_49: -1342050018
+      BloqueInterrogante_5: -2063236206
+      BloqueInterrogante_50: -1941227176
+      BloqueInterrogante_51: 1692847104
+      BloqueInterrogante_52: -1966898795
+      BloqueInterrogante_53: -333375931
+      BloqueInterrogante_54: -980863751
+      BloqueInterrogante_55: -1454421755
+      BloqueInterrogante_56: 1100243247
+      BloqueInterrogante_57: 2089922342
+      BloqueInterrogante_58: -1812542897
+      BloqueInterrogante_59: -1926026915
+      BloqueInterrogante_6: -1225922
+      BloqueInterrogante_60: 702235074
+      BloqueInterrogante_61: -270162767
+      BloqueInterrogante_62: 902356567
+      BloqueInterrogante_63: 2142318058
+      BloqueInterrogante_64: 396016912
+      BloqueInterrogante_65: -642989497
+      BloqueInterrogante_66: -632076455
+      BloqueInterrogante_67: 773939651
+      BloqueInterrogante_68: -1704661140
+      BloqueInterrogante_69: 340635312
+      BloqueInterrogante_7: 1592363868
+      BloqueInterrogante_70: 385679484
+      BloqueInterrogante_71: -349892310
+      BloqueInterrogante_72: -1354839729
+      BloqueInterrogante_73: 524893509
+      BloqueInterrogante_74: 1080674834
+      BloqueInterrogante_75: 797202221
+      BloqueInterrogante_8: -2092621388
+      BloqueInterrogante_9: -175440709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,7 @@ public class ControlPersonaje : MonoBehaviour
     private float tiempoSaltoActual = 0f;
     public LayerMask groundLayer;
     public TextMeshProUGUI livesNumber;
+    public float radio = 0.4f;
 
     private Rigidbody2D rb;
     private bool estaSaltando = false;
@@ -22,6 +23,9 @@ public class ControlPersonaje : MonoBehaviour
     private float vulnerabilityTime = 0f;
 
     private Transform plataformaActual = null; // Para manejar la plataforma actual
+
+    public string boostButton = "Boost"; // Nombre del botón configurado en Unity
+    public float boostMultiplier = 2f;  // Factor de aumento en velocidad y salto
 
     void Start()
     {
@@ -38,7 +42,6 @@ public class ControlPersonaje : MonoBehaviour
         CheckVulnerability();
     }
 
-
     public bool GetVulneravility()
     {
         return isVulnerable;
@@ -52,7 +55,7 @@ public class ControlPersonaje : MonoBehaviour
 
     private void CheckVulnerability()
     {
-        if(!isVulnerable && (Time.time - vulnerabilityTime) > 3f)
+        if (!isVulnerable && (Time.time - vulnerabilityTime) > 3f)
         {
             isVulnerable = true;
         }
@@ -60,9 +63,15 @@ public class ControlPersonaje : MonoBehaviour
 
     private bool EstaEnSuelo()
     {
-        // Verificar si el personaje está tocando el suelo
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, groundLayer);
-        return hit.collider != null;
+        float anchoPersonaje = GetComponent<Collider2D>().bounds.extents.x;
+        Vector2 origenCentro = new Vector2(transform.position.x, transform.position.y);
+
+        RaycastHit2D hitCentro = Physics2D.Raycast(origenCentro, Vector2.down, 1.1f, groundLayer);
+        Collider2D suelo = Physics2D.OverlapCircle(origenCentro, radio, groundLayer);
+
+        Debug.DrawRay(origenCentro, Vector2.down * 1.1f, Color.green);
+
+        return hitCentro.collider != null || suelo != null;
     }
 
     private void MovimientoPersonaje()
@@ -70,8 +79,15 @@ public class ControlPersonaje : MonoBehaviour
         // Movimiento horizontal
         float movimientoHorizontal = Input.GetAxis("Horizontal");
 
+        // Aumentar la velocidad si se presiona el botón de boost
+        float velocidadActual = velocidadMovimiento;
+        if (Input.GetButton(boostButton))
+        {
+            velocidadActual *= boostMultiplier;
+        }
+
         // Calcula la velocidad deseada
-        xVelocity = velocidadMovimiento * movimientoHorizontal;
+        xVelocity = velocidadActual * movimientoHorizontal;
 
         // Comprueba si está moviéndose para activar la animación de correr
         animator.SetBool("Run", xVelocity != 0);
@@ -85,7 +101,7 @@ public class ControlPersonaje : MonoBehaviour
             transform.localScale = scale;
         }
 
-        rb.velocity = new Vector2(movimientoHorizontal * velocidadMovimiento, rb.velocity.y);
+        rb.velocity = new Vector2(movimientoHorizontal * velocidadActual, rb.velocity.y);
     }
 
     private void SaltoPersonaje()
@@ -97,7 +113,15 @@ public class ControlPersonaje : MonoBehaviour
             estaSaltando = true;
             botonSaltoPresionado = true;
             tiempoSaltoActual = 0f;
-            rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+
+            // Aumentar la fuerza de salto si se presiona el botón de boost
+            float fuerzaSaltoActual = fuerzaSalto;
+            if (Input.GetButton(boostButton))
+            {
+                fuerzaSaltoActual *= boostMultiplier;
+            }
+
+            rb.velocity = new Vector2(rb.velocity.x, fuerzaSaltoActual);
         }
 
         // Continuar el salto mientras se mantenga presionado el botón
@@ -106,7 +130,15 @@ public class ControlPersonaje : MonoBehaviour
             if (tiempoSaltoActual < tiempoMaximoSalto)
             {
                 tiempoSaltoActual += Time.deltaTime;
-                rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+
+                // Aumentar la fuerza de salto continuo si se presiona el botón de boost
+                float fuerzaSaltoActual = fuerzaSalto;
+                if (Input.GetButton(boostButton))
+                {
+                    fuerzaSaltoActual *= boostMultiplier;
+                }
+
+                rb.velocity = new Vector2(rb.velocity.x, fuerzaSaltoActual);
             }
             else
             {
@@ -141,7 +173,6 @@ public class ControlPersonaje : MonoBehaviour
             plataformaActual = null;
         }
     }
-
 
     public void AddLives()
     {
