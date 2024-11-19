@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Goomba : MonoBehaviour
+public class ComportamientoEnemigo : MonoBehaviour
 {
     public bool isDetected;
 
     [SerializeField]
     private int velocidad = 10;
-    private float positionY = 0;
-    private bool delay;
+    private bool canChangeDirection = true;
     private float size;
     private GameObject personaje;
     private bool direccion = true;
@@ -16,7 +15,6 @@ public class Goomba : MonoBehaviour
     private void Start()
     {
         isDetected = false;
-        delay = false;
         personaje = GameObject.FindGameObjectWithTag("Personaje");
     }
 
@@ -56,37 +54,28 @@ public class Goomba : MonoBehaviour
     void IsFalling()
     {
         RaycastHit2D detectedBottom = Physics2D.Raycast(transform.position, Vector2.down, 1.3f, LayerMask.GetMask("Ground"));
-        if (detectedBottom.collider != null)
+        if (detectedBottom.collider == null)
         {
-            positionY = 0;
+            canChangeDirection = false;
         }
         else
         {
-            if (!delay)
-            {
-                delay = true;
-                StartCoroutine(ExecuteAfterTime(0.3f));
-            }
+            canChangeDirection = true;
         }
     }
 
-    IEnumerator ExecuteAfterTime(float time)
-    {
-        yield return new WaitForSeconds(time);
-        positionY = -10 * Time.deltaTime;
-        delay = false;
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        size = transform.position.y;
+        size = collision.contacts[0].normal.y;
 
         if (collision.gameObject.tag == "Personaje")
         {
-            if (size < collision.transform.position.y)
+            if (size < -0.5f)
             {
-                personaje.GetComponent<Rigidbody2D>().velocity = Vector2.up * 30;
+                personaje.GetComponent<Rigidbody2D>().velocity = Vector2.up * 10;
                 velocidad = 0;
+                this.GetComponent<Animator>().SetBool("isDead", true);
                 Invoke("MuereEnemigo", 0.5f);
             }
             else
@@ -105,28 +94,24 @@ public class Goomba : MonoBehaviour
 
     private void CheckChangeDirection()
     {
-        RaycastHit2D detected;
-        if (direccion)
-        {
-            detected = Physics2D.Raycast(transform.position, Vector2.left, 1f, LayerMask.GetMask("Ground"));
-        }
-        else
-        {
-            detected = Physics2D.Raycast(transform.position, Vector2.right, 1f, LayerMask.GetMask("Ground"));
-        }
-        if (detected)
-        {
-            Debug.Log(detected.collider.tag);
-        }
+        if (canChangeDirection) { 
+            RaycastHit2D detected;
+            if (direccion)
+            {
+                detected = Physics2D.Raycast(transform.position, Vector2.left, 1f, LayerMask.GetMask("Ground"));
+            }
+            else
+            {
+                detected = Physics2D.Raycast(transform.position, Vector2.right, 1f, LayerMask.GetMask("Ground"));
+            }
 
-        if (detected)
-        {
-            Debug.Log("AQUI");
-            direccion = !direccion;
-            velocidad *= -1;
-            Voltear(velocidad > 0 ? 1 : -1); // Ajustar dirección visual al chocar con plataformas
+            if (detected)
+            {
+                direccion = !direccion;
+                velocidad *= -1;
+                Voltear(velocidad > 0 ? 1 : -1); // Ajustar dirección visual al chocar con plataformas
+            }
         }
-
     }
 
     private void MuereEnemigo()

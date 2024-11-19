@@ -45,6 +45,7 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Personaje"))
         {
+            Debug.Log("TEST 1");
             // Detectar la dirección del contacto
             Vector2 normal = collision.contacts[0].normal;
 

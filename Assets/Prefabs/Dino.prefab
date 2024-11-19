@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4182513637014859963}
   - component: {fileID: 4899501135336594301}
   - component: {fileID: 907712534980297789}
-  - component: {fileID: 8237161564690017352}
   - component: {fileID: 3906425526342224326}
   m_Layer: 0
   m_Name: Dino
@@ -182,24 +181,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8237161564690017352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810292055726559993}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3f673ab22b61410b84f68438888a14a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidadMovimiento: 2
-  fuerzaSaltoPersonaje: 5
-  plataformasLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  rangoDeteccionSuelo: 0.1
 --- !u!114 &3906425526342224326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,8 +190,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 810292055726559993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a520f2e79870c41fa8b38daed5e545e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a5537f218b6443d4894c977192fc8b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isDetected: 0
-  velocidad: 1
+  velocidad: 3
